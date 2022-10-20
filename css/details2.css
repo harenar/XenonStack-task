@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: beige;
+}
+
+h1{
+
+    text-align: center;
+    color: rgb(32, 30, 32);
+}
+img{
+    text-align: center;
+    height: 25rem;
+}
+h3{
+  text-align: center;
+  color: rgb(30, 172, 25);
+}
+#price{
+    text-align: center;
+    color: rgb(5, 196, 5);
+}
+.container{
+    text-align: center;
+}
+

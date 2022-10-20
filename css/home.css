@@ -1,0 +1,184 @@
+*{
+    display: block;
+    margin: 0%;
+    padding: 0%;
+   background-color: rgb(216, 213, 213);
+   
+   
+}
+h1{
+    text-align: left;
+    color: rgb(71, 71, 71);
+}
+#nav-bar{
+    display: flex;
+    margin-left: 90rem;
+    margin-right: 2rem;
+    padding:1rem;
+    
+}
+#nav-bar li{
+    margin-left: 0rem;
+}
+
+/* container1 */
+
+
+.container1{
+    display: flex;
+    margin-top: 0rem;
+    height: 20rem;
+    width: 100rem;
+    /* background-color: black; */
+    
+
+    /* flex-direction: column; */
+    
+}
+.container1 div{
+    
+    /* background-color: rgb(255, 255, 255); */
+    
+    margin: 1rem;
+    height: 12rem;
+    width: 25rem;
+    /* background-color: white; */
+
+}
+.container1 div img{
+    height: 10rem;
+    width: 15rem;
+}
+.container1 div h3{
+    color: rgb(87, 87, 87);
+    text-align: left;
+    
+}
+.container1 div p i{
+   text-align: center;
+    color: red;
+    
+    
+}
+.container1 div p {
+    text-align: center;
+    display: flex;
+    color: green;
+    
+}
+.container1 div button{
+    background-color:green;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+    margin-left: 6rem;
+    padding-top: 0.8rem;
+    padding-bottom: 1.7rem;
+    padding-left: 2.1rem;
+    padding-right: 3.2rem;
+    border-radius: 5rem;
+    border-style: hidden;
+}
+
+
+
+
+/* container2 */
+
+
+
+.container2{
+    display: flex;
+    margin-top: 0rem;
+    height: 20rem;
+    width: 100rem;
+    
+
+}
+.container2 div{
+    margin: 1rem;
+    height: 12rem;
+    width: 25rem;
+}
+.container2 div img{
+    height: 10rem;
+    width: 15rem;
+
+}
+.container2 div h3{
+    color: rgb(87, 87, 87);
+    text-align: left;
+}
+.container2 div p i{
+    text-align: center;
+     color: red;
+}
+.container2 div p {
+    text-align: center;
+    display: flex;
+    color: green;
+    
+}
+.container2 div button{
+    background-color:green;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+    margin-left: 6rem;
+    padding-top: 0.8rem;
+    padding-bottom: 1.7rem;
+    padding-left: 2.1rem;
+    padding-right: 3.2rem;
+    border-radius: 5rem;
+    border-style: hidden;
+}
+
+/* container3 */
+
+.container3{
+    display: flex;
+    margin-top: 0rem;
+    height: 20rem;
+    width: 100rem;
+    
+
+}
+.container3 div{
+    margin: 1rem;
+    height: 12rem;
+    width: 25rem;
+}
+.container3 div img{
+    height: 10rem;
+    width: 15rem;
+}
+
+.container3 div h3{
+    color: rgb(87, 87, 87);
+    text-align: left;
+}
+.container3 div p i{
+    text-align: center;
+     color: red;
+}
+.container3 div p {
+    text-align: center;
+    display: flex;
+    color: green;
+    
+}
+.container3 div button{
+    background-color:green;
+    height: 2rem;
+    width: 3rem;
+    cursor: pointer;
+    margin-left: 6rem;
+
+
+    padding-top: 0.8rem;
+    padding-bottom: 1.7rem;
+    padding-left: 2.1rem;
+    padding-right: 3.2rem;
+    border-radius: 5rem;
+    border-style: hidden;
+}

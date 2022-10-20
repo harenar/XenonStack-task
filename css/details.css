@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: beige;
+}
+
+h1{
+
+    text-align: center;
+    color: rgb(32, 30, 32);
+}
+img{
+    text-align: center;
+    height: 25rem;
+}
+h3{
+  text-align: center;
+  color: rgb(30, 172, 25);
+}
+#price{
+    text-align: center;
+    color: rgb(5, 196, 5);
+}
+.container{
+    text-align: center;
+}
+
+
+
+/* payment container */
+h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+.container2{
+    text-align: center;
+    
+   
+}
+#cd-number{
+    background-color: black;
+    height: 2rem;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    border-radius: 5rem;
+}
+#cvv-number{
+    background-color: black;
+    height: 2rem;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    border-radius: 5rem;
+    border-style: hidden;
+    
+}
+#holder{
+    background-color: black;
+    height: 2rem;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    border-radius: 5rem;
+    border-style: hidden;
+}
+button{
+    background-color: rgb(31, 219, 6);
+    height: 2.2rem;
+    width: 4rem;
+    color: black;
+    text-align: center;
+    border-radius: 5rem;
+}
