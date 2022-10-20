@@ -14,11 +14,16 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
+
+from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    
-    #set app name in admin url  to connect the app url
-    path('',include('treecartservices.urls'))
+    path('',views.register,name='register'),
+    path('login/',views.login, name="login"),
+    path('home/',views.home,name='home'),
+    path('food-details/',views.details, name="details"),
+    path('food-details-cake/',views.details2, name="details2"),
+    path('payment-succesfull',views.cong,name="cong"),
+    path('logout/',views.logout,name='logout')
 ]
