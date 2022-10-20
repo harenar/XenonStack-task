@@ -1,0 +1,49 @@
+
+
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+   
+   
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link css -->
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'css/details.css' %}"/>
+    <!-- responsible css -->
+    {% comment %} <link rel="stylesheet" media="screen and (max-width:1410px" href="css/conresponsib.css"> {% endcomment %}
+    <title></title>
+  
+  </head>
+  <body>
+
+    
+        <form method="" action="">
+           <h1>food details<h1>
+            <img src="{% static 'image/food image/cheese-burger.png'%}">
+                    <h3>cheese burger</h3>
+                    <p id="price">₹ 35</p>
+              <div class="container">
+               <p><b>Potatoes</b>(medium to large, 300 grams)</p>
+               <p><b>Carrot</b>(medium to large, 100 to 125) 40g</p>
+               <p><b>French Beans</b>(40 grams)</p>
+               <p><b>peas</b> 118g (fresh or frozen)</p>
+               <p><b>Red chili Powder</b>(or cayenne pepper) 2.5ML</p>
+              </div>
+
+              <h2>Payment UPI<h2>
+                <div class="container2">
+              <input  id="cd-number" type="text" name="card-number"placeholder="Enter your card number">
+              {% comment %} <input  id="cvv-number" type="text" name="cvv-number" placeholeder="Enter your cvv Number"> {% endcomment %}
+              <input  id = "cvv-number" type="text" name="cvv-number" placeholder="Enter cvv-number">
+              <input  id="holder" type="text" name="card-holder-name" placeholder="Card Holder name">
+              <a href="{% url 'cong'%}"><button type="button">pay</button></a>
+
+                </div>
+            </form>
+
+   
+  </body>
+</html>
