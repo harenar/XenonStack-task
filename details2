@@ -1,0 +1,45 @@
+
+
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+   
+   
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link css -->
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'css/details.css' %}"/>
+    <!-- responsible css -->
+    {% comment %} <link rel="stylesheet" media="screen and (max-width:1410px" href="css/conresponsib.css"> {% endcomment %}
+    <title></title>
+  
+  </head>
+  <body>
+
+    
+        <form method="" action="">
+           <h1>food details<h1>
+            <img  src="{% static 'image/food image/cake8.png'%}" >
+                    <h3>cheese burger</h3>
+                    <p id="price">₹ 30</p>
+              <div class="container">
+               <p><b>Suger</b>40g</p>
+               <p><b>Pound</b>400g</p>
+               <p><b>chocolate Cream</b>(40 grams)</p>
+               <p><b>peas</b> 118g (fresh or frozen)</p>
+
+               <h2>Payment UPI<h2>
+                <input type="text" name="card-number"placeholder="Enter your card number">
+                <input type="text" name="cvv-number" placeholeder="Enter your cvv-Number">
+                <input type="text" name="card-holder-name" placeholder="Card Holder name">
+                <button type="button">pay</button>
+               
+              </div>
+            </form>
+
+   
+  </body>
+</html>
