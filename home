@@ -1,0 +1,132 @@
+
+
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+   
+   
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link css -->
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}"/>
+    <!-- responsible css -->
+    {% comment %} <link rel="stylesheet" media="screen and (max-width:1410px" href="css/conresponsib.css"> {% endcomment %}
+    <title></title>
+  
+  </head>
+  <body>
+
+    <h1>Treecart</h1>
+        <form method="" action="{% url 'details'%}">
+            <ul id="nav-bar">
+            {% comment %} <ul><label>menu</label> {% endcomment %}
+                {% comment %} <select>
+                    <option>non-veg cake</option>
+                    <option>veg-cake</option>
+                    <option>burger</option>
+                </select> {% endcomment %}
+                <li>AboutUs</li>
+                <li><a href="{% url 'logout'%}">logout</a></li>
+            </ul>    
+        
+            <section class="container1">
+                <div>
+                    <img  src="{% static 'image/food image/cheese-burger.png'%}">
+                    <h3>cheese burger</h3>
+                    <p><i>price</i>₹ 35</p>
+                    <a href="{% url 'details' %}" > <button type="button">Buy</button></a>
+                </div>
+                <div>
+                    <img  src="{% static 'image/food image/cake8.png'%}" >
+                    <h3>chocolate cake</h3>
+                    <p><i>price</i>₹ 30</p>
+                    <a href="{% url 'details2' %}" ><button type="button">Buy</button></a>
+                </div>
+                <div>
+                    <img  src="{% static 'image/food image/Chocolate1.png'%}" >
+                    <h3>chocolate Cake</h3>
+                    <p><i>price</i>₹ 90</p>
+                    <button type="button">Buy</button>
+                </div>
+                <div>
+                    <img  src="{% static 'image/food image/non-veg burger.png'%}" >
+                    <h3>veg burger</h3>
+                    <p><i>price</i>₹ 90</p>
+                    <button type="button">Buy</button>
+                </div>
+            </section>
+
+            
+
+            <section class="container2">
+                <div>
+                    <img  src="{% static 'image/food image/Pizza.png'%}" >
+                    <h3>Pizza</h3>
+                    <p><i>price</i>₹ 200</p>
+                    <button type="button">Buy</button>
+                </div>
+                <div>
+                    <img  src="{% static 'image/food image/veg pizzak.png'%}" >
+                    <h3>veg pizza</h3>
+                    <p><i>price</i>₹ 100</p>
+                    <button type="button">Buy</button>
+                </div>
+                <div>
+                    <img  src="{% static 'image/food image/Pasta1.png'%}" >
+                    <h3>Pasta</h3>
+                    <p><i>price</i>₹ 50</p>
+                    <button type="button">Buy</button>
+
+                </div>
+                <div>
+                    <img  src="{% static 'image/food image/maggi-noodle.png'%}" ">
+                    <h3>Noodle</h3>
+                    <p><i>price</i>₹ 70</p>
+                    <button type="button">Buy</button>
+                </div>
+            </section>
+
+
+
+
+            <section class="container3">
+                <div>
+                    <img  src="{% static 'image/food image/biryani.png'%}" >
+                    <h3>Biryani</h3>
+                    <p><i>price</i>₹ 120</p>
+                    <button type="button">Buy</button>
+                </div>
+                <div>
+                    <img  src="{% static 'image/food image/maggi-noodle.png'%}">
+                    <h3>Maggi</h3>
+                    <p><i>price</i>₹ 60</p>
+                    <button type="button">Buy</button>
+                </div>
+                <div>
+                    <img  src="{% static 'image/food image/pasta.png'%}"">
+                    <h3>cheese burger</h3>
+                    <p><i>price</i>₹ 60</p>
+                    <button type="button">Buy</button>
+                </div>
+                <div>
+                    <img  src="{% static 'image/food image/veg-biryani-rice.png'%}">
+                    <h3>Veg Biryani Rice</h3>
+                    <p><i>price</i>₹ 60</p>
+                    
+                    <button type="button">Buy</button>
+                </div>
+            </section>
+
+            
+               
+            
+              
+           
+        </form>
+
+   
+  </body>
+</html>
