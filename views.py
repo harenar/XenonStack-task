@@ -18,20 +18,7 @@ def register(request):
         email = request.POST.get('email')
         password = request.POST.get('password')
         c_password = request.POST.get('cpassword')
-        #password condition
-        # if password == c_password:
-        #     #email condition
-        #     if User.objects.filter(username=username).exists():
-        #         message.info(request,"this username is already taken")
-        #         return redirect('/')
-            
-                
-        #     else:
-        #         user = User.objects.create_user(username=username,password=password)
-        #         user.save()
-        # else:
-        #     message.info(request,"password not match")
-        #     return redirect('/')
+       
         
         #send data for model and store in database
         d = reg() # d:- means details of all data
@@ -56,7 +43,7 @@ def login(request):
         password = request.POST['password']
         
         #match username and password in database
-        user = auth.authenticate(username = user_name,password=password)
+        user = auth.authenticate(username = user_name, password=password)
         if user is not None:
             auth.login(request,user)
             return redirect('home/')
